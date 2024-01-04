@@ -21,4 +21,9 @@ public class AuthController {
     public ResponseEntity<APIResponse<AdminRequest>> registerAdmin(AdminRequest adminRequest){
         return authService.registerAdmin(adminRequest);
     }
+
+    @RequestMapping("/register")
+    public ResponseEntity<APIResponse<AdminRequest>> registerAdminB(AdminRequest adminRequest){
+        return authService.registerAdmin(adminRequest);
+    }
 }
