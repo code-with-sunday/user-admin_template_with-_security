@@ -1,7 +1,7 @@
 package com.sunday.security.service.serviceImpl;
 
 import com.sunday.security.payload.APIResponse;
-import com.sunday.security.payload.request.UserResquest;
+import com.sunday.security.payload.request.user.UserResquest;
 import com.sunday.security.payload.response.UserResponse;
 import com.sunday.security.repository.UserRepository;
 import com.sunday.security.service.UserService;

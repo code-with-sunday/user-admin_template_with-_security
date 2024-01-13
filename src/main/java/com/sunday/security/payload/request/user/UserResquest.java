@@ -1,4 +1,4 @@
-package com.sunday.security.payload.request;
+package com.sunday.security.payload.request.user;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
